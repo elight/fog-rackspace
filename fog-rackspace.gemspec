@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Fog::Rackspace::VERSION
   spec.authors       = ["Evan Light"]
   spec.email         = ["evan@tripledogdare.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "shindo"
 
-  spec.add_runtime_dependency "fog-core", '~> 0.0.1'
+  spec.add_runtime_dependency "fog-core", '~> 1.19.0'
 end

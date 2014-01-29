@@ -1,3 +1,8 @@
+require 'fog/core'
+require 'fog/rackspace'
+require 'fog/test_helpers'
+
+
 LINKS_FORMAT = [{
   'href' => String,
   'rel' => String

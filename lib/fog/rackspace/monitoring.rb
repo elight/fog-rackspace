@@ -2,7 +2,6 @@
 # https://github.com/racker/rackspace-monitoring-rb
 # It has been heavily modified for import into Fog master.
 
-require 'fog'
 require 'fog/core'
 
 module Fog

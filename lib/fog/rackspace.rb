@@ -1,4 +1,4 @@
-require 'fog-core'
+require 'fog/core'
 
 require 'fog/rackspace/mock_data'
 require 'fog/rackspace/service'
